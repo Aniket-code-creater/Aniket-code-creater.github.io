@@ -7,8 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.js">
     <link rel="stylesheet" href="./styles/fonts.css">
     <script src="https://kit.fontawesome.com/57a283df89.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- <script>src = "https://code.jquery.com/jquery-3.4.1.js"</script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show');
+            });
+        });
+    </script> -->
 </head>
 
 <body>
@@ -16,38 +27,146 @@
         <div id="navbar">
             <div id="nav-logo">
                 <div id="logo">
-                    <h2>PortFolio</h2>
+                    <h2>Port<span>Folio</span></h2>
 
                 </div>
             </div>
-            <div id="mid-nav">
+            <div id="mid-nav" class="active">
+
                 <ul>
-                    <li><a href="#">Project <i class="fa-sharp fa-solid fa-caret-down"></i></a>
-
-                    </li>
-                    <li><a href="#">GitHub </a>
-
-                    </li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li class="navdis"><a href="#">About</a></li>
+                    <li class="navdis"><a href="#">Skills</a></li>
+                    <li class="navdis"><a href="#">Project</a></li>
+                    <li class="navdis"><a href="#">GitHub </a></li>
+                    <li class="navdis"><a href="#">Linkedin</a></li>
+                    <li class="navdis"><a href="#">Resume</a></li>
+                    <li class="navdis"><a href="#">Contact</a></li>
+                    <label class="mobile-navbar-btn">
+                        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+                    </label>
                 </ul>
+                <!-- <div>
+
+                    <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                    <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+
+
+                </div> -->
+
             </div>
 
         </div>
         <div class="detal">
-            <h1>I'm Aniket <span>Rajput</span></h1>
-            <p>This is my offical PortFolio website to showes my all
-                <br>Details and work experince web Development
-            </p>
-            <a href="#">DOWNLOAD RESUME</a>
+            <div id="about">
+                <h2>Hey 👋,</h2>
+                <h1>I'm Aniket <span>Rajput</span></h1>
+                <p>This is my offical PortFolio website to showes my all
+                    <br>Details and work experince web Development
+                </p>
+                <a href="#"><i class="fa-solid fa-download"></i> RESUME</a>
+
+            </div>
+            <div id="image">
+                <img src="https://avatars.githubusercontent.com/u/112688918?s=400&u=02a26225e6bcd14b9611705932aed10dbc9a8549&v=4"
+                    alt="">
+            </div>
+
+        </div>
+
+    </div>
+    <div class="Abt">
+        <div class="skill-head">
+            <h1>About Me</h1>
+        </div>
+        <div class="about_me">
+            <div>
+                <p>Logical and results-driven Java backend developer, capable of writing production code using HTML,
+                    CSS, JavaScript, and Java, and a systematic person who likes to work methodically. Looking forward
+                    to the opportunities that can bring challenges and learnings to leverage and hone skills.</p>
+            </div>
         </div>
     </div>
 
+    <div class="skills">
+        <div class="skill-head">
+            <h1>Skills</h1>
+        </div>
+        <div class="skill-mid">
+            <div><img src="https://tse3.mm.bing.net/th?id=OIP.3pbn96F_IFdhSmJ1MaRe9AHaKN&pid=Api&P=0" alt=""></div>
+            <div><img src="https://tse4.mm.bing.net/th?id=OIP.uoOvbNG2b8QP5bvCGLyQ_wHaKc&pid=Api&P=0" alt=""></div>
+            <div><img src="https://tse3.mm.bing.net/th?id=OIP.TLUfKlwZE1G4Z39OlQltFAHaIw&pid=Api&P=0" alt=""></div>
+            <div><img src="https://tse1.mm.bing.net/th?id=OIP.7D5uM_zPzVpXQMoruEzRPAHaKc&pid=Api&P=0" alt=""></div>
+            <div><img src="https://tse1.mm.bing.net/th?id=OIP.lIIc_svaWdGdEJuEk7TBlgHaHa&pid=Api&P=0" alt=""></div>
+            <div><img src="https://etechfactory.com/wp-content/uploads/2020/11/spring-boot-logo.png" alt=""></div>
+
+        </div>
 
 
+    </div>
+    <div class="projects">
+        <div class="skill-head">
+            <h1>Projects</h1>
+
+        </div>
+        <div class="project_section1">
+            <div id="project_image">
+                <img src="https://user-images.githubusercontent.com/110287987/210098956-523121b7-54f7-4821-bff0-a9068b2179bb.png"
+                    alt="">
+            </div>
+            <div class="about_pro1">
+                <h1>T-Track</h1>
+                <p>T-Track is a time-tracking web app for freelancers and any size businesses across a variety of
+                    industries</p>
+                <h3>Tech Stack</h3>
+                <div class="tech-stack">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.uoOvbNG2b8QP5bvCGLyQ_wHaKc&pid=Api&P=0" alt="">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.TLUfKlwZE1G4Z39OlQltFAHaIw&pid=Api&P=0" alt="">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.7D5uM_zPzVpXQMoruEzRPAHaKc&pid=Api&P=0" alt="">
+
+                </div>
+                <div class="btn">
+                    <button><a href="#">GitHub</a></button>
+                    <button><a href="#">Netlify</a></button>
+                </div>
+
+            </div>
 
 
+        </div>
+        <div class="project_section1">
 
+            <div class="about_pro2">
+                <h1>Bella Vila Organic</h1>
+                <p>it is an e-commerce website for Online retailers of beauty and skincare products.</p>
+                <h3>Tech Stack</h3>
+                <div class="tech-stack2">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.uoOvbNG2b8QP5bvCGLyQ_wHaKc&pid=Api&P=0" alt="">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.TLUfKlwZE1G4Z39OlQltFAHaIw&pid=Api&P=0" alt="">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.7D5uM_zPzVpXQMoruEzRPAHaKc&pid=Api&P=0" alt="">
+
+                </div>
+                <div class="btn1">
+                    <button><a href="#">GitHub</a></button>
+                    <button><a href="#">Netlify</a></button>
+                </div>
+
+            </div>
+            <div id="project_image">
+                <img src="https://i.ibb.co/XD3kYRd/bella-vita-organic-page1.png" alt="">
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div>
+        <div class="skill-head">
+            <h1>Contact</h1>
+        </div>
+
+    </div>
 
 </body>
 

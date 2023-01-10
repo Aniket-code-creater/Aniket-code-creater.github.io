@@ -3,14 +3,16 @@ body {
     padding: 0;
     font-family: 'Google Sans', sans-serif;
     box-sizing: border-box;
+    background: #f7f7f7;
+    /* overflow-x: hidden; */
 
 }
 
 .main {
     position: relative;
     width: 100%;
-    height: 100vh;
-    background: black;
+
+    background: #f7f7f7;
 }
 
 
@@ -22,8 +24,8 @@ body {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    color: white;
-    background: rgb(9, 9, 9);
+    color: black;
+    background: #f7f7f7;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -42,6 +44,20 @@ body {
 
     width: 100%;
     height: 100%;
+}
+
+#logo span {
+    color: #FF7043;
+}
+
+#navbar #icon {
+    color: black;
+    font-size: 25px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 
@@ -74,13 +90,13 @@ body {
 }
 
 #mid-nav ul li:hover {
-    color: rgb(57, 57, 57);
+    color: black;
 }
 
 #mid-nav ul li a {
     display: block;
     padding: 0 15px;
-    color: white;
+    color: black;
     text-decoration: none;
     line-height: 60px;
     font-size: 16px;
@@ -89,7 +105,7 @@ body {
 }
 
 #mid-nav ul li a:hover {
-    background: #232323;
+    background: #cac9c9;
 
     /* color: blue; */
     transform: scale(1.03);
@@ -98,14 +114,31 @@ body {
 
 /* mid section  */
 .detal {
-    margin-left: 8%;
+    margin: auto;
+    width: 85%;
+    border: 0px solid red;
+    margin-left: 7%;
+    justify-content: center;
     padding-top: 100px;
+    background: #f7f7f7;
+    gap: 50px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 60px;
 
 }
 
-.detal h1 {
+.detal #about {
+    padding-left: 20px;
+    border: 0px solid red;
+    width: 50%;
+
+}
+
+#about h1 {
+    margin-top: -10px;
     font-size: 50px;
-    color: white;
+    color: black;
     margin-bottom: 20px;
 
 }
@@ -114,21 +147,543 @@ span {
     color: rgb(66, 54, 156);
 }
 
-.detal p {
+#about p {
     line-height: 25px;
-    color: white;
+    color: black;
     font-size: 18px;
 
 }
 
-.detal a {
+#about a {
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
     margin: 30px 0px;
-    background: #232323;
+    background: #c6c6c6;
     border-radius: 5px;
+    color: blue;
+
+}
+
+#image {
+    border: 0px solid red;
+
+
+}
+
+#image img {
+
+    border-radius: 50%;
+}
+
+.skills {
+
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 40px;
+    width: 85%;
+    height: 250px;
+
+
+
+}
+
+.skill-head {
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    color: black;
+    margin-top: 30px;
+    border: 0px solid red;
+}
+
+.skill-mid {
+    width: 68%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    border: 0px solid red;
+    grid-template-columns: repeat(6, 120px);
+    gap: 25px;
+    text-align: center;
+    color: black;
+    line-height: 25px;
+    border-radius: 5px;
+
+}
+
+.skill-mid div {
+    /* margin: auto; */
+    border: 0px solid red;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: transform 0s;
+    border-radius: 5px;
+}
+
+.skill-mid div:hover {
+    transform: scale(1.1);
+}
+
+.skill-mid img {
+    border-radius: 5px;
+    width: 100%;
+    height: 130px;
+
+}
+
+.Abt {
+    padding-top: 30px;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 30px;
+    border: 0px solid red;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.about_me {
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 0px solid red;
+
+}
+
+.about_me div {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 60%;
+    font-size: 20px;
+    margin: auto;
+    border: 0px solid red;
+    justify-content: center;
+    text-align: center;
+}
+
+/* ------------------------project section */
+.projects {
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0px solid red;
+    height: auto;
+}
+
+.project_section1 {
+    display: flex;
+    border: 0px solid red;
+    margin: auto;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 40px;
+    margin-bottom: 80px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+#project_image {
+    height: 360px;
+    width: 58%;
+    border: 0px solid red;
+    border-radius: 5px;
+}
+
+#project_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+
+}
+
+.about_pro1 {
+    width: 40%;
+    border: 0px solid red;
+    border-radius: 5px;
+
+
+}
+
+.about_pro1 h1 {
+    margin-left: 20px;
+}
+
+.about_pro1 p {
+    margin-left: 20px;
+    font-size: 21px;
+}
+
+.about_pro1 h3 {
+    margin-left: 20px;
+}
+
+.tech-stack {
+    display: flex;
+    border: 0px solid red;
+    margin-left: 20px;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.tech-stack img {
+    width: 40px;
+    height: 42px;
+}
+
+.btn {
+
+    margin-left: 20px;
+    border: 0px solid red;
+}
+
+.btn button {
+    margin: 8px;
+    padding: 10px;
+    width: 80px;
+    background: blue;
     color: white;
+    border: 0px solid gray;
+    border-radius: 5px;
+
+
+}
+
+.btn button a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn button:nth-child(2) {
+    margin-left: 280px;
+}
+
+/* -----------------project2 */
+.about_pro2 {
+    width: 40%;
+    border: 0px solid red;
+    border-radius: 5px;
+
+
+
+}
+
+.about_pro2 h1 {
+    margin-left: 30px;
+}
+
+.about_pro2 p {
+    margin-left: 30px;
+    font-size: 21px;
+}
+
+.about_pro2 h3 {
+    margin-left: 30px;
+}
+
+.tech-stack2 {
+    display: flex;
+    border: 0px solid red;
+    margin-left: 30px;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+
+.tech-stack2 img {
+    width: 40px;
+    height: 42px;
+}
+
+.btn1 {
+
+    margin-left: 30px;
+    border: 0px solid red;
+}
+
+.btn1 button {
+    margin: 8px;
+    padding: 10px;
+    width: 80px;
+    background: blue;
+    color: white;
+    border: 0px solid gray;
+    border-radius: 5px;
+
+
+}
+
+.btn1 button a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn1 button:nth-child(2) {
+    margin-left: 280px;
+}
+
+.mobile-nav-icon {
+    display: none;
+    width: 4rem;
+    height: 4rem;
+    color: black;
+}
+
+/* medium screen*/
+
+@media only screen and (min-width:500px) and (max-width:956px) {
+
+
+    .main .mobile-navbar-btn,
+    .mobile-nav-icon {
+        margin-right: 10px;
+        display: block;
+
+    }
+
+    #mid-nav ul .navdis {
+        display: none;
+    }
+
+    .mobile-nav-icon[name="close-outline"] {
+        display: none;
+    }
+
+
+
+
+    #image {
+        width: 80%;
+        /* margin: auto; */
+    }
+
+    .detal {
+        margin: auto;
+        width: 100%;
+        border: 0px solid red;
+        /* margin-left: 3%; */
+        padding-top: 100px;
+        background: #f7f7f7;
+        gap: 30px;
+        display: grid;
+        /* border-radius: 5px; */
+        /* margin-bottom: 60px; */
+
+    }
+
+    .detal #about {
+        /* padding-left: 0px; */
+        border: 0px solid red;
+        width: 100%;
+
+
+    }
+
+    .abt {
+        margin-top: 30px;
+        width: 100%;
+
+    }
+
+    .about_me {
+        width: 100%;
+    }
+
+    .about_me div {
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        width: 90%;
+        font-size: 22px;
+
+        border: 0px solid red;
+
+    }
+
+    .skills {
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+    .skill-head {
+        width: 100%;
+
+    }
+
+    .skill-mid {
+        width: 80%;
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+    }
+
+    .project {
+        /* margin-top: 400px; */
+        width: 100%;
+    }
+
+    .project_section1 {
+        display: grid;
+        width: 100%;
+    }
+
+    #project_image {
+        width: 100%;
+        height: 90%;
+    }
+
+    .about_pro1 {
+        width: 100%;
+    }
+
+    .btn button:nth-child(2) {
+        margin-left: 50%;
+    }
+
+    .project_section1 {
+        margin-top: 40px;
+        width: 100%;
+        display: grid;
+    }
+
+    .about_pro2 {
+        width: 100%;
+    }
+
+    #project_image {
+        width: 100%;
+        height: 90%;
+    }
+
+    .btn1 button:nth-child(2) {
+        margin-left: 50%;
+    }
+
+}
+
+
+/* small screen*/
+@media only screen and (min-width:220px) and (max-width: 499px) {
+
+
+    .main .mobile-navbar-btn,
+    .mobile-nav-icon {
+        margin-right: 10px;
+        display: block;
+
+    }
+
+    #mid-nav ul .navdis {
+        display: none;
+    }
+
+    .mobile-nav-icon[name="close-outline"] {
+        display: none;
+    }
+
+
+
+
+
+
+    .detal {
+        margin: auto;
+        width: 100%;
+        border: 0px solid red;
+        /* margin-left: 3%; */
+        padding-top: 100px;
+        background: #f7f7f7;
+        gap: 30px;
+        display: grid;
+        /* border-radius: 5px; */
+        /* margin-bottom: 60px; */
+
+    }
+
+    .detal #about {
+        /* padding-left: 0px; */
+        border: 0px solid red;
+        width: 100%;
+
+
+    }
+
+    .abt {
+        margin-top: 30px;
+        width: 100%;
+
+    }
+
+    .about_me {
+        width: 100%;
+    }
+
+    .about_me div {
+        /* padding-left: 10px;
+        padding-right: 10px; */
+        width: 90%;
+        font-size: 22px;
+
+        border: 0px solid red;
+
+    }
+
+    .skills {
+        width: 100%;
+        margin-bottom: 350px;
+    }
+
+    .skill-head {
+        width: 100%;
+
+    }
+
+    .skill-mid {
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+    }
+
+    .project {
+        /* margin-top: 400px; */
+        width: 100%;
+    }
+
+    .project_section1 {
+        display: grid;
+        width: 100%;
+    }
+
+    #project_image {
+        width: 100%;
+        height: 90%;
+    }
+
+    .about_pro1 {
+        width: 100%;
+    }
+
+    .btn button:nth-child(2) {
+        margin-left: 20%;
+    }
+
+    .project_section1 {
+        margin-top: 40px;
+        width: 100%;
+        display: grid;
+    }
+
+    .about_pro2 {
+        width: 100%;
+    }
+
+    #project_image {
+        width: 100%;
+        height: 90%;
+    }
+
+    .btn1 button:nth-child(2) {
+        margin-left: 20%;
+    }
 
 }
