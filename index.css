@@ -1,181 +1,244 @@
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Google Sans', sans-serif;
     box-sizing: border-box;
-    background: #f7f7f7;
+    /* background: #f7f7f7; */
+    
     /* overflow-x: hidden; */
 
 }
 
-.main {
-    position: relative;
+/* .main {
+    
     width: 100%;
 
     background: #f7f7f7;
-}
-
-
-
-#navbar {
-    width: 100%;
-    height: 70px;
-    border: 0px solid red;
-    display: flex;
-    justify-content: space-between;
+} */
+/*----navbar-----------------------------------------------------------*/
+nav{
+    height: 60px;
+    background: #0A1827;
     position: fixed;
-    color: black;
-    background: #f7f7f7;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-
-#nav-logo {
-    width: 20%;
-    height: 90%;
-    border: 0px solid red;
-    margin-left: 50px;
-    margin-top: -10px;
-    /* padding-bottom: 10px; */
     display: flex;
-}
-
-#logo {
-    font-size: 25px;
-
     width: 100%;
-    height: 100%;
-}
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    /* box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em; */
+ }
+ nav .logo{
+     font-size: 33px;
+     color:white;
+     font-weight: 600;
+ }
+ .logo span{
+    color: orangered;
+ }
+ nav ul{
+     display: flex;
+     list-style: none;
+ }
+ nav ul li{
+     margin: 0 5px;
+ }
+ nav ul li a{
+     color:white;
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     padding: 8px 10px;
+     transition: all 0.3s ease;
+ }
+ 
+ nav ul li a:hover{
+     background: rgb(28, 40, 60);
+     
+ }
+ nav .menu i{
+     color: white;
+     font-size: 20px;
+     cursor: pointer;
+     display: none;
+ }
+ #click{
+     display: none;
+ }
+ .blank{
+    width: 100%;
+    height: 100px;
+ }
 
-#logo span {
-    color: #FF7043;
-}
 
-#navbar #icon {
-    color: black;
-    font-size: 25px;
-    line-height: 80px;
-    float: right;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-
-
-#mid-nav {
-    width: 45%;
-    height: 80%;
+ .detal{
+    background-image: url(https://bbdu.ac.in/wp-content/uploads/2020/05/banner-background-5.jpg);
+    /* background-repeat: no-repeat; */
+    width: 100%;
     border: 0px solid red;
-    margin-top: 5px;
-    /* font-size: 50px */
-    /* display: flex; */
-}
-
-
-
-#mid-nav ul {
-    padding: 0px;
-    margin: 0px;
-    float: right;
-    /* font-size: 25px; */
-    margin-right: 20px;
-}
-
-#mid-nav ul li {
-    /* background: lightblue;ś */
-    position: relative;
-    list-style: none;
-    display: inline-block;
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
-}
-
-#mid-nav ul li:hover {
-    color: black;
-}
-
-#mid-nav ul li a {
-    display: block;
-    padding: 0 15px;
-    color: black;
-    text-decoration: none;
-    line-height: 60px;
-    font-size: 16px;
-    transition: .2s;
-
-}
-
-#mid-nav ul li a:hover {
-    background: #cac9c9;
-
-    /* color: blue; */
-    transform: scale(1.03);
-
-}
-
-/* mid section  */
-.detal {
     margin: auto;
-    width: 85%;
-    border: 0px solid red;
-    margin-left: 7%;
-    justify-content: center;
+    /* margin-left: 7%; */
     padding-top: 100px;
-    background: #f7f7f7;
-    gap: 50px;
+    padding-bottom: 30px;
+    justify-content: center;
+    gap:50px;
+    
     display: flex;
     border-radius: 5px;
     margin-bottom: 60px;
+    /* background: white; */
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
 
-}
 
-.detal #about {
-    padding-left: 20px;
+ }
+ /* #about h2{ */
+    /* background: white; */
+ /* } */
+
+  #about{
+    padding-left: 50px;
+    margin: auto;
     border: 0px solid red;
-    width: 50%;
+    color: white;
+    /* background: white; */
+    
+ }
+ #about h1{
+    
+    /* background: white; */
+   padding-top: 20px;
+   font-size: 45px;
+    border: 0px solid red;
+ }
 
-}
-
-#about h1 {
-    margin-top: -10px;
-    font-size: 50px;
-    color: black;
-    margin-bottom: 20px;
-
-}
-
-span {
+ span{
     color: rgb(66, 54, 156);
-}
-
-#about p {
+ }
+ #about p{
+    margin-top: 20px;
     line-height: 25px;
-    color: black;
-    font-size: 18px;
+    color: white;
+    /* background: white; */
+ }
 
-}
-
-#about a {
+ .detal #about a{
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
     margin: 30px 0px;
-    background: #c6c6c6;
+    color: white;
     border-radius: 5px;
-    color: blue;
+    border: 2px solid blue;
+    
+ }
+ 
 
-}
-
-#image {
+ #image{
     border: 0px solid red;
-
-
-}
-
-#image img {
-
+    margin: auto;
+    /* background: white; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
+    /* border-radius: 50%; */
+ }
+ #image img{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-radius: 50%;
-}
+ }
+ img{
+    width: 90%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*---------------navbar responsive---------*/
+ @media (max-width: 940px){
+    
+     nav{ 
+         /* background: #f7f7f7; */
+      } 
+     nav .menu i{
+         display: block;
+     }
+     #click:checked ~ .menu i::before{
+         content: "\f00d";
+     }
+     #click:checked ~ ul{
+         left: 0%;
+     }
+     nav ul{
+         position:fixed;
+         top:80px;
+         left:-100%;
+         background: #011325;
+         height: 100vh;
+         width: 100%;
+         display: block;
+         text-align: center;
+         transition: all 0.3s ease;
+     }
+     nav ul li{
+         margin: 40px 0;
+     }
+     nav ul li a{
+         font-size: 20px;
+         display: block;
+     }
+     nav ul li a:hover{
+         color: blueviolet;
+         background: #011325;
+         
+     }
+
+    .github{
+        width: 50%;
+    } 
+    .github p img{
+        width: 100%;
+    }
+    .github2{
+        width: 55%;
+
+    }
+    .github3{
+        width: 55%;
+    }
+
+    .contact{
+        width: 100%;
+
+    }
+    .contact div:nth-child(1){
+        width: 80%;
+    }
+    .contact div:nth-child(2){
+        width: 15%;
+        gap: 5px;
+        
+    }
+    .contact p img {
+        width: 15px;
+        
+    }
+    .contact div:nth-child(3){
+        width: 5%;
+    }
+     
+ }
+
+
+
+
 
 .skills {
 
@@ -195,6 +258,7 @@ span {
     width: 95%;
     color: black;
     margin-top: 30px;
+    margin-bottom: 30px;
     border: 0px solid red;
 }
 
@@ -216,7 +280,8 @@ span {
 .skill-mid div {
     /* margin: auto; */
     border: 0px solid red;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     transition: transform 0s;
     border-radius: 5px;
 }
@@ -239,7 +304,10 @@ span {
     padding-bottom: 30px;
     border: 0px solid red;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    line-height: 25px;
+    /* background:#061829; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 
 .about_me {
@@ -248,6 +316,8 @@ span {
     margin-top: 10px;
     margin-bottom: 30px;
     border: 0px solid red;
+    /* background:#30475E; */
+    /* color: white; */
 
 }
 
@@ -266,10 +336,12 @@ span {
 .projects {
     width: 85%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 30px;
     border: 0px solid red;
     height: auto;
+    line-height: 25px;
+    padding-top: 20px;
 }
 
 .project_section1 {
@@ -291,6 +363,7 @@ span {
 }
 
 #project_image img {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     width: 100%;
     height: 100%;
     border-radius: 5px;
@@ -302,21 +375,26 @@ span {
     width: 40%;
     border: 0px solid red;
     border-radius: 5px;
+    margin-top: 40px;
+    line-height: 25px;
 
 
 }
 
 .about_pro1 h1 {
+    
     margin-left: 20px;
 }
 
 .about_pro1 p {
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 22px;
     font-size: 21px;
 }
 
 .about_pro1 h3 {
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .tech-stack {
@@ -324,6 +402,7 @@ span {
     border: 0px solid red;
     margin-left: 20px;
     gap: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
 
 }
@@ -352,6 +431,7 @@ span {
 }
 
 .btn button a {
+    background: blue;
     color: white;
     text-decoration: none;
 }
@@ -371,19 +451,23 @@ span {
 }
 
 .about_pro2 h1 {
+    margin-top: 40px;
     margin-left: 30px;
 }
 
 .about_pro2 p {
+    margin-top: 20px;
     margin-left: 30px;
     font-size: 21px;
 }
 
 .about_pro2 h3 {
+    margin-top: 10px;
     margin-left: 30px;
 }
 
 .tech-stack2 {
+    margin-top: 20px;
     display: flex;
     border: 0px solid red;
     margin-left: 30px;
@@ -416,6 +500,7 @@ span {
 }
 
 .btn1 button a {
+    background: blue;
     color: white;
     text-decoration: none;
 }
@@ -423,20 +508,82 @@ span {
 .btn1 button:nth-child(2) {
     margin-left: 280px;
 }
+/*-----------------------------------------github--------------------------------------*/
 
-.mobile-nav-icon {
-    display: none;
-    width: 4rem;
-    height: 4rem;
-    color: black;
+.github{
+    width: 25%;
+    margin: auto;
+    border: 0px solid red;
 }
+.github p img{
+    align-items: center;
+    width: 100%
+}
+.github2{
+    width: 35%;
+    margin: auto;
+
+}
+.github2 p img{
+    width: 100%;
+    align-items: center;
+}
+.github3{
+    width: 25%;
+    margin: auto;
+
+}
+.github3 p img{
+    align-items: center;
+    width: 100%;
+}
+
+/*------------------------------contact------------------------------------*/
+.contact{
+    padding-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+    border: 0px solid red;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    line-height: 25px;
+    
+    background: rgb(213, 213, 255);
+}
+.contact div{
+    width: 25%;
+    border: 0px solid red;
+    background: rgb(213, 213, 255);
+
+}
+.contact h4{
+
+    margin-left: 2%;
+    background: rgb(213, 213, 255);
+}
+.contact span{
+    
+    background: rgb(213, 213, 255);
+    
+}
+ .con2 p{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+
 
 /* medium screen*/
 
 @media only screen and (min-width:500px) and (max-width:956px) {
 
 
-    .main .mobile-navbar-btn,
+    /* .main .mobile-navbar-btn,
     .mobile-nav-icon {
         margin-right: 10px;
         display: block;
@@ -449,37 +596,14 @@ span {
 
     .mobile-nav-icon[name="close-outline"] {
         display: none;
-    }
+    } */
 
 
 
 
-    #image {
-        width: 80%;
-        /* margin: auto; */
-    }
+  
 
-    .detal {
-        margin: auto;
-        width: 100%;
-        border: 0px solid red;
-        /* margin-left: 3%; */
-        padding-top: 100px;
-        background: #f7f7f7;
-        gap: 30px;
-        display: grid;
-        /* border-radius: 5px; */
-        /* margin-bottom: 60px; */
-
-    }
-
-    .detal #about {
-        /* padding-left: 0px; */
-        border: 0px solid red;
-        width: 100%;
-
-
-    }
+ 
 
     .abt {
         margin-top: 30px;
@@ -495,7 +619,7 @@ span {
         /* padding-left: 10px;
         padding-right: 10px; */
         width: 90%;
-        font-size: 22px;
+        font-size: 18px;
 
         border: 0px solid red;
 
@@ -563,50 +687,22 @@ span {
 
 
 /* small screen*/
-@media only screen and (min-width:220px) and (max-width: 499px) {
+@media only screen and (min-width:220px) and (max-width: 550px) {
 
-
-    .main .mobile-navbar-btn,
-    .mobile-nav-icon {
-        margin-right: 10px;
+    .detal{
+        
+        width: 100%;
         display: block;
+    }
+    #image img{
+        margin-left: 60px;
+        width: 70%;
 
     }
-
-    #mid-nav ul .navdis {
-        display: none;
+    #about{
+        padding-left: 20px;
     }
-
-    .mobile-nav-icon[name="close-outline"] {
-        display: none;
-    }
-
-
-
-
-
-
-    .detal {
-        margin: auto;
-        width: 100%;
-        border: 0px solid red;
-        /* margin-left: 3%; */
-        padding-top: 100px;
-        background: #f7f7f7;
-        gap: 30px;
-        display: grid;
-        /* border-radius: 5px; */
-        /* margin-bottom: 60px; */
-
-    }
-
-    .detal #about {
-        /* padding-left: 0px; */
-        border: 0px solid red;
-        width: 100%;
-
-
-    }
+   
 
     .abt {
         margin-top: 30px;
@@ -623,6 +719,7 @@ span {
         padding-right: 10px; */
         width: 90%;
         font-size: 22px;
+        
 
         border: 0px solid red;
 
@@ -635,11 +732,12 @@ span {
 
     .skill-head {
         width: 100%;
+       
 
     }
 
     .skill-mid {
-        width: 80%;
+        width: 70%;
         grid-template-columns: repeat(2, 1fr);
         display: grid;
     }
