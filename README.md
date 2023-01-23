@@ -1,3 +1,3 @@
 # My Professional Portfolio
 
-[url=https://ibb.co/Bgn67kx][img]https://i.ibb.co/fCDNKJ5/Portfolio-image.png[/img][/url]
+<a href="https://ibb.co/Bgn67kx"><img src="https://i.ibb.co/Bgn67kx/Portfolio-image.png" alt="Portfolio-image" border="0"></a>
