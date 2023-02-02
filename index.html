@@ -1,215 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./index.js">
-    <link rel="stylesheet" href="./styles/fonts.css">
-    <script src="https://kit.fontawesome.com/57a283df89.js" crossorigin="anonymous"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-   
+    <!-- custo scc link---- -->
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
-
 <body>
-    
-        <!-- <div id="navbar">
-            <div id="nav-logo">
-                <div id="logo">
-                    <h2>Port<span>Folio</span></h2>
 
-                </div>
-            </div>
-            <div id="mid-nav" class="active">
 
-                <ul>
-                    <li class="navdis"><a href="#">About</a></li>
-                    <li class="navdis"><a href="#">Skills</a></li>
-                    <li class="navdis"><a href="#">Project</a></li>
-                    <li class="navdis"><a href="#">GitHub </a></li>
-                    <li class="navdis"><a href="#">Linkedin</a></li>
-                    <li class="navdis"><a href="#">Resume</a></li>
-                    <li class="navdis"><a href="#">Contact</a></li>
-                    <label class="mobile-navbar-btn">
-                        <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
-                        <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
-                    </label>
-                </ul>
-                
+    <!-- header design -->
+    <header>
+        <a href="#" class="logo">Ani<span>ket</span></a>
 
-            </div>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#Github">GitHub</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Resume</a></li>
 
-        </div> -->
-        <nav>
-        <div class="logo">Ani<span>ket</span></div>
-            <input type="checkbox" id="click">
-        <label for="click" class="menu">
-            <i class="fa-solid fa-bars"></i>
-         </label>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="https://drive.google.com/file/d/1tOBGYMkdjl88TXFnDC_ASCWuoA56tLYR/view?usp=share_link">Resume</a></li>
-            <li><a href="#">Contact</a></li>
         </ul>
-    </nav>
-   
 
-
-        
-    <div class="detal">
-        <div id="about">
-            <h2>Hey 👋,</h2>
-            <h1>I'm Aniket <span>Rajput</span></h1>
-            <p>This is my offical PortFolio website to showes my all
-                <br>Details and work experince web Development
-            </p>
-            <a href="https://drive.google.com/file/d/1tOBGYMkdjl88TXFnDC_ASCWuoA56tLYR/view?usp=share_link"><i class="fa-solid fa-download"></i> RESUME</a>
+        <div class="bx bx-menu" id="menu-icon">
 
         </div>
-        <div id="image">
-            <img src="https://avatars.githubusercontent.com/u/112688918?s=400&u=02a26225e6bcd14b9611705932aed10dbc9a8549&v=4"
-                    alt="">
-        </div>
+    </header>
+    <!-- home section design -->
+    <section class="home" id="home" >
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>Aniket Rajput</h1>
+            <h3>Java Backend <span>Developer.</span></h3>
+            <p>Lorem ipsum dolor olorum earum magni veniam! Iste hic minima minus cumque libero.</p>
 
-    </div>
-
-   
-    <div class="Abt">
-        <div class="skill-head">
-            <h1>About Me</h1>
-        </div>
-        <div class="about_me">
-            <div>
-                <p>Logical and results-driven Java backend developer, capable of writing production code using HTML,
-                    CSS, JavaScript, and Java, and a systematic person who likes to work methodically. Looking forward
-                    to the opportunities that can bring challenges and learnings to leverage and hone skills.</p>
+            <div class="buttom">
+                <a href="#" class="btn"><span><i class='bx bx-download'></i></span> Resume</a>
             </div>
         </div>
-    </div>
+    
 
-    <div class="skills">
-        <div class="skill-head">
-            <h1>Skills</h1>
-        </div>
-        <div class="skill-mid">
-            <div><img src="https://tse3.mm.bing.net/th?id=OIP.3pbn96F_IFdhSmJ1MaRe9AHaKN&pid=Api&P=0" alt=""></div>
-            <div><img src="https://tse4.mm.bing.net/th?id=OIP.uoOvbNG2b8QP5bvCGLyQ_wHaKc&pid=Api&P=0" alt=""></div>
-            <div><img src="https://tse3.mm.bing.net/th?id=OIP.TLUfKlwZE1G4Z39OlQltFAHaIw&pid=Api&P=0" alt=""></div>
-            <div><img src="https://tse1.mm.bing.net/th?id=OIP.7D5uM_zPzVpXQMoruEzRPAHaKc&pid=Api&P=0" alt=""></div>
-            <div><img src="https://tse1.mm.bing.net/th?id=OIP.lIIc_svaWdGdEJuEk7TBlgHaHa&pid=Api&P=0" alt=""></div>
-            <div><img src="https://etechfactory.com/wp-content/uploads/2020/11/spring-boot-logo.png" alt=""></div>
+    </section>
 
+    <!-- --------about section design  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://i.ibb.co/p4hF9nn/port-image.jpg" alt="">
         </div>
 
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Java Backend Developer</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae voluptatibus eum quas, officia assumenda, 
+                officiis perferendis, vel aut natus ea ducimus unde voluptate veritatis architecto. Fugiat quia dicta atque quam maiores, nobis 
+                aspernatur dolorum asperiores autem incidunt necessitatibus minima nemo repellendus ipsum doloremque in officiis,
+                 itaque, praesentium vel suscipit cum.</p>
+                 <a href="#" class="btn">Netlify</a>
+                 <a href="#" class="btn">GitHub</a>
+        </div>
 
-    </div>
-    <div class="projects">
-        <div class="skill-head">
-            <h1>Projects</h1>
+    </section>
+
+    <!-- --------Skills section design  -->
+    <section class="services" id="services"> 
+        <div class="main-text">
+            <p>What I am Expert In</p>
+            <h2><span>My </span>Skills</h2>
 
         </div>
-        <div class="project_section1">
-            <div id="project_image">
-                <img src="https://user-images.githubusercontent.com/110287987/210098956-523121b7-54f7-4821-bff0-a9068b2179bb.png"
-                    alt="">
-            </div>
-            <div class="about_pro1">
-                <h1>T-Track</h1>
-                <p>T-Track is a time-tracking web app for freelancers and any size businesses across a variety of
-                    industries</p>
-                <h3>Tech Stack</h3>
-                <div class="tech-stack">
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.uoOvbNG2b8QP5bvCGLyQ_wHaKc&pid=Api&P=0" alt="">
-                    <img src="https://tse3.mm.bing.net/th?id=OIP.TLUfKlwZE1G4Z39OlQltFAHaIw&pid=Api&P=0" alt="">
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.7D5uM_zPzVpXQMoruEzRPAHaKc&pid=Api&P=0" alt="">
 
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-java'></i>
                 </div>
-                <div class="btn">
-                    <button><a href="https://github.com/Team-T-Track/T-Track">GitHub</a></button>
-                    <button><a href="#">Netlify</a></button>
-                </div>
-
+                <h3>Java</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+                     magni cumque natus beatae eligendi tempora voluptates aliquam 
+                     assumenda vitae nobis accusamus. Dicta est laboriosam facilis.
+                </p>
+                <a href="#" class="read">Read more</a>
             </div>
-
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+                     magni cumque natus beatae eligendi tempora voluptates aliquam 
+                     assumenda vitae nobis accusamus. Dicta est laboriosam facilis.
+                </p>
+                <a href="#" class="read">Read more</a>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-html5'></i>
+                </div>
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+                     magni cumque natus beatae eligendi tempora voluptates aliquam 
+                     assumenda vitae nobis accusamus. Dicta est laboriosam facilis.
+                </p>
+                <a href="#" class="read">Read more</a>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-css3' ></i>
+                </div>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+                     magni cumque natus beatae eligendi tempora voluptates aliquam 
+                     assumenda vitae nobis accusamus. Dicta est laboriosam facilis.
+                </p>
+                <a href="#" class="read">Read more</a>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bxl-spring-boot' ></i>
+                </div>
+                <h3>Spring boot</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+                     magni cumque natus beatae eligendi tempora voluptates aliquam 
+                     assumenda vitae nobis accusamus. Dicta est laboriosam facilis.
+                </p>
+                <a href="#" class="read">Read more</a>
+            </div>
+            <div class="box">
+                <div class="s-icons">
+                    <i class='bx bx-sushi' ></i>
+                </div>
+                <h3>MySql</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse,
+                     magni cumque natus beatae eligendi tempora voluptates aliquam 
+                     assumenda vitae nobis accusamus. Dicta est laboriosam facilis.
+                </p>
+                <a href="#" class="read">Read more</a>
+            </div>
 
         </div>
-        <div class="project_section1">
 
-            <div class="about_pro2">
-                <h1>Bella Vila Organic</h1>
-                <p>it is an e-commerce website for Online retailers of beauty and skincare products.</p>
-                <h3>Tech Stack</h3>
-                <div class="tech-stack2">
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.uoOvbNG2b8QP5bvCGLyQ_wHaKc&pid=Api&P=0" alt="">
-                    <img src="https://tse3.mm.bing.net/th?id=OIP.TLUfKlwZE1G4Z39OlQltFAHaIw&pid=Api&P=0" alt="">
-                    <img src="https://tse1.mm.bing.net/th?id=OIP.7D5uM_zPzVpXQMoruEzRPAHaKc&pid=Api&P=0" alt="">
-
-                </div>
-                <div class="btn1">
-                    <button><a href="https://github.com/Aniket-code-creator/premium-effect-4034">GitHub</a></button>
-                    <button><a href="#">Netlify</a></button>
-                </div>
-
-            </div>
-            <div id="project_image">
-                <img src="https://i.ibb.co/XD3kYRd/bella-vita-organic-page1.png" alt="">
-            </div>
-
+    </section>
+     <!-- --------Project section design  -->
+     <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <p>Portfolio</p>
+            <h2><span>Latest </span>Project</h2>
 
         </div>
 
-
-    </div>
-    <!-- /*------------------------github-------------------------------------------------------------------------*/ -->
-
-
-    <div class="skill-head">
-        <h1>GitHub</h1>
-        
-    </div>
-    <div class="github">
-        <p><img  src="https://github-readme-stats.vercel.app/api/top-langs?username=aniket-code-creator&show_icons=true&locale=en&layout=compact" alt="aniket-code-creator" /></p>
-
-    </div>
-    <div class="github3">
-        <p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=aniket-code-creator&show_icons=true&locale=en" alt="aniket-code-creator" /></p>
-    </div>
-    <div class="github2">
-        <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=aniket-code-creator&" alt="aniket-code-creator" /></p>
-    </div>
-    <div>
-        <div class="skill-head">
-            <h1>Contact</h1>
-        </div>
-        <div class="contact">
-            <div class="con1">
-                <h4>Email : <span>aniketmakwana1010@gmail.com</span></h4>
-                <h4>Mobile : <span>+91-7748930011</span></h4>
-            </div>
-            <div class="con2">
-                <p >
-                    <a href="https://linkedin.com/in/aniket-rajput-465b01212" target="blank"><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aniket-rajput-465b01212" height="30" width="40" /></a>
-                    <a href="https://instagram.com/i_m_aniketrajput" target="blank"><img  src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="i_m_aniketrajput" height="30" width="40" /></a>
-                    <a href="https://www.hackerearth.com/@aniketmakwana101" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@aniketmakwana101" height="30" width="40" /></a>
+        <div class="portfolio-content">
+            <div class="row">
+                <img src="https://i.ibb.co/cTVKRx1/Portfolio-new.png" alt="">
+                <div class="layer">
+                    <h5>Visula Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
+                        voluptates similique voluptatum quis sint?
                     </p>
-            
-            </div>
-            <div class="con3"></div>
-            
-            
+                    <a href="#"><i class='bx bxl-github' ></i></a>
 
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://i.ibb.co/cTVKRx1/Portfolio-new.png" alt="">
+                <div class="layer">
+                    <h5>Visula Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
+                        voluptates similique voluptatum quis sint?
+                    </p>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://i.ibb.co/cTVKRx1/Portfolio-new.png" alt="">
+                <div class="layer">
+                    <h5>Visula Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
+                        voluptates similique voluptatum quis sint?
+                    </p>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+
+                </div>
+            </div>
+            <div class="row">
+                <img src="https://i.ibb.co/cTVKRx1/Portfolio-new.png" alt="">
+                <div class="layer">
+                    <h5>Visula Design</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
+                        voluptates similique voluptatum quis sint?
+                    </p>
+                    <a href="#"><i class='bx bxl-github' ></i></a>
+
+                </div>
+            </div>
 
         </div>
 
-    </div>
+     </section>
 
+     <!-- ---------contact section design--------- -->
+     <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>If You Have Any Project In Your Mind.</h4>
+            <p>I'm a Java Backend Developer - creating amazing java
+                 Backend Project as well as frontend.
+            </p>
+            <div class="list">
+                <li><a href="#">+91-7748930011</a></li>
+                <li><a href="#">aniketmakwana1010@gmail.com</a></li>
+                <li><a href="#">linkedin</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+
+            </div>
+
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Address" required>
+                <input type="" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                <input type="submit" value="Send Message" class="submit" required>
+            </form>
+        </div>
+
+     </section>
+
+     <!-- end section design-----------  -->
+     <section class="end">
+        <div class="last-text">
+            <p>Copyright © 2023 by Aniket Rajput AllRights Reserved. </p>
+        </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+       
+
+     </section>
+
+
+
+
+
+
+
+
+
+    <!-- custom js link -->
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
-
 </html>
+<script src="./index.js"></script>
