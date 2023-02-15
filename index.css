@@ -329,6 +329,14 @@ header.sticky{
     height: 100%;
 }
 
+/* github section -------------- */
+
+#github-streak-stats {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 /* ----------contact section style ---- ----------------------- */
 
 .contact{
