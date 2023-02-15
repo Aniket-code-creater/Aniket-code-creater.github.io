@@ -52,7 +52,8 @@ span{
     display: flex;
 }
 .navlist a{
-    color: var(--second-color);
+    /* color: var(--second-color); */
+    color: var(--text-color);
     font-size: 17px;
     font-weight: 500;
     margin: 0 25px;
