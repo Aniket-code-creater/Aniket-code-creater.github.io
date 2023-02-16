@@ -51,7 +51,7 @@ span{
 .navlist{
     display: flex;
 }
-.navlist a{
+.navlist li a{
     /* color: var(--second-color); */
     color: var(--text-color);
     font-size: 17px;
@@ -131,7 +131,8 @@ section{
 
 }
 .home-text p{
-    color: var(--second-color);
+    /* color: var(--second-color); */
+    color: var(--text-color);
     font-size: var(--p-font);
     line-height: 1.1;
     margin-bottom: 40px;
@@ -152,6 +153,10 @@ section{
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;
+}
+.bx {
+    color: var(--text-color);
+    font-weight: 600;
 }
 .btn:hover{
     transform: scale(0.9);
@@ -306,7 +311,8 @@ header.sticky{
     margin-bottom: 15px;
 }
 .layer p{
-    color: var(--second-color);
+    /* color: var(--second-color); */
+    color: var(--text-color);
     font-size: 1rem;
     line-height: 1.8;
 }
@@ -468,6 +474,7 @@ header.sticky{
     .end{
         padding: 15px 3%;
     }
+
 }
 
 @media (max-width: 1100px){
@@ -483,6 +490,14 @@ header.sticky{
     }
     .home{
         height: 87vh;
+    }
+    #github-streak-stats {
+       
+        display: grid;
+        
+      }
+    .calendar{
+        width: 100%;
     }
 }
 @media (max-width:920px){
@@ -500,6 +515,17 @@ header.sticky{
     }
     .contact{
         grid-template-columns: 1fr;
+    }
+    #github-streak-stats {
+       
+        display: grid;
+        
+      }
+    .calendar{
+        width: 100%;
+    }
+    .st1{
+        width: 100%;
     }
 }
 
@@ -536,5 +562,15 @@ header.sticky{
     }
     .navlist.open{
         top:100%;
+    }
+    #github-streak-stats {
+        display: grid;
+        
+      }
+    .calendar{
+        width: 100%;
+    }
+    .st1{
+        width: 100%;
     }
 }
