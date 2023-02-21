@@ -76,7 +76,7 @@
     </section>
 
     <!-- --------Skills section design  -->
-    <section class="services" class="nav-link skills" id="services" id="skills"> 
+    <section class="services" class="nav-link.skills" id="services" id="skills"> 
         <div class="main-text">
             <p>What I am Expert In</p>
             <h2><span>My </span>Skills</h2>
@@ -157,56 +157,97 @@
 
     </section>
      <!-- --------Project section design  -->
-     <section class="portfolio" class="nav-link projects" id="portfolio" id="projects">
+     <section class="portfolio" class="nav-link.projects" id="portfolio" id="projects">
         <div class="main-text">
             <p>Portfolio</p>
             <h2><span>Latest </span>Project</h2>
 
         </div>
 
-        <div class="portfolio-content">
-            <div class="row">
+        <div class="portfolio-content" class="nav-link projects" id="nav-link-projects">
+            <div class="row" class="project-card">
                 <img src="https://i.ibb.co/cTVKRx1/Portfolio-new.png" alt="">
                 <div class="layer">
-                    <h5>PortFolio</h5>
-                    <p>This is My official PrtFolio to shows my all Details 
+                    <h5 class="project-title">PortFolio</h5>
+                    <p class="project-description">This is My official PrtFolio to shows my all Details 
                         and Work experince Web Development.
                     </p>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <p class="project-tech-stack">HTML, CSS And JavaScript</p>
+                    <div style="display: flex; gap:20px;">
+                        <div class="project-github-link">
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                            
+                        </div>
+                        <div class="project-deployed-link">
+                            
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
+                    
+                    
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row" class="project-card">
                 <img src="https://user-images.githubusercontent.com/110287987/210098956-523121b7-54f7-4821-bff0-a9068b2179bb.png" alt="">
                 <div class="layer">
-                    <h5>T-Track</h5>
+                    <h5 class="project-title">T-Track</h5>
                     <p>T-Track is a time-tracking web app for freelancers and any 
                         size businesses across a variety of industries.
                     </p>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <p class="project-tech-stack">HTML, CSS And JavaScript</p>
+                    <div style="display: flex; gap:20px;">
+                        <div class="project-github-link">
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                            
+                        </div>
+                        <div class="project-deployed-link">
+                            
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row" class="project-card">
                 <img src="https://user-images.githubusercontent.com/112688918/214110667-77ccc8ff-d069-424d-9a06-f69642fabb8a.png" alt="">
                 <div class="layer">
-                    <h5>Bella Vita Organic</h5>
-                    <p>It is an e-commerce website for Online retailers of beauty and skincare products 
+                    <h5 class="project-title">Bella Vita Organic</h5>
+                    <p class="project-description">It is an e-commerce website for Online retailers of beauty and skincare products 
                         dedicated to creating handcrafted and organic beauty solutions.
                     </p>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <p class="project-tech-stack">HTML, CSS And JavaScript</p>
+                    <div style="display: flex; gap:20px;">
+                        <div class="project-github-link">
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                            
+                        </div>
+                        <div class="project-deployed-link">
+                            
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row" class="project-card">
                 <img src="https://i.ibb.co/cTVKRx1/Portfolio-new.png" alt="">
                 <div class="layer">
-                    <h5>Visula Design</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
+                    <h5 class="project-title">Visula Design</h5>
+                    <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
                         voluptates similique voluptatum quis sint?
                     </p>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <p class="project-tech-stack">HTML, CSS And JavaScript</p>
+                    <div style="display: flex; gap:20px;">
+                        <div class="project-github-link">
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                            
+                        </div>
+                        <div class="project-deployed-link">
+                            
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -238,8 +279,8 @@
      <!-- skills section-->
 
      <!-- ---------contact section design--------- -->
-     <section class="contact" id="contact">
-        <div class="contact-text">
+     <section class="nav-link.contact" id="contact">
+        <div class="contact-text" class="nav-link-contact">
             <h2>Contact <span>Me!</span></h2>
             <h4>If You Have Any Project In Your Mind.</h4>
             <p>I'm a Java Backend Developer - creating amazing java
@@ -248,7 +289,8 @@
             <div class="list">
                 <li><a href="#"id="contact-phone">+91-7748930011</a></li>
                 <li><a href="#"id="contact-email">aniketmakwana1010@gmail.com</a></li>
-                
+                <li><a href="https://www.linkedin.com/in/aniket-rajput-465b01212/"id="contact-linkedin"><i class='bx bxl-github' ></i>linkedin: Aniket Rajput</a></li>
+                <li><a href="https://github.com/Aniket-code-creator"id="contact-github"><i class='bx bxl-github' ></i>Contact me via github</a></li>
             </div>
             <div class="contact-icons">
                 <a href="#"><i class='bx bxl-instagram' ></i></a>
