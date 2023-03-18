@@ -177,10 +177,10 @@ header.sticky{
     gap: 1.5rem;
 }
 .about-img img{
-    max-width: 530px;
+    max-width: 400px;
     height: auto;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .about-text h2{
@@ -308,13 +308,13 @@ header.sticky{
 .layer h5{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .layer p{
     /* color: var(--second-color); */
     color: var(--text-color);
     font-size: 1rem;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 .layer i{
     color: var(--main-color);
@@ -323,6 +323,7 @@ header.sticky{
     background: var(--text-color);
     width: 60px;
     height: 60px;
+    margin-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
