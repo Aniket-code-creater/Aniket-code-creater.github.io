@@ -338,7 +338,12 @@ header.sticky{
 
 /* github section -------------- */
 
-#github-streak-stats {
+/* #github-streak-stats {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  } */
+  #stat {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -355,7 +360,7 @@ header.sticky{
 
 /* ----------contact section style ---- ----------------------- */
 
-.contact{
+#contact{
     background: var(--second-bg-color);
     display: grid;
     grid-template-columns: repeat(2,1fr);
