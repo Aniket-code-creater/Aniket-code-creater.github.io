@@ -365,6 +365,7 @@ header.sticky{
 /* ----------contact section style ---- ----------------------- */
 
 #contact{
+    
     background: var(--second-bg-color);
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -606,6 +607,12 @@ header.sticky{
     }
     .st1{
         width: 100%;
+    }
+    #contact{
+    
+       
+        grid-template-columns: repeat(1,1fr);
+        
     }
 }
 @media (max-width:520px){
