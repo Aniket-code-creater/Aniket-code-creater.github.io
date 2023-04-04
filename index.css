@@ -24,6 +24,10 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
 }
+#space{
+    width: 100%;
+    height: 550px;
+}
 
 header{
     position: fixed;
