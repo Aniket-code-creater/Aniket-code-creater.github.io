@@ -20,5 +20,8 @@ window.onscroll = () => {
 // m1.onclick=()=>{
 //     window.open('https://drive.google.com/file/d/1szToZaY6vIZeAhKmQN3H4bKXoGiiuTbk/view?usp=share_link')
 // }
+function resume(){
+    window.open('https://drive.google.com/file/d/1szToZaY6vIZeAhKmQN3H4bKXoGiiuTbk/view?usp=share_link')
+}
 
 
