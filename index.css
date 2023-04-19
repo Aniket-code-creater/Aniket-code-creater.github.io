@@ -147,6 +147,18 @@ section{
     align-items: center;
     justify-content: center;
 }
+#resume-button-2{
+    display: inline-block;
+    background: var(--main-color);
+    border-radius: 5px;
+    color: var(--text-color);
+    transition: all .45s ease;
+    list-style: none;
+    border-color: var(--main-color);
+}
+#resume-button-2 :hover{
+    transform: scale(0.9);
+}
 .btn{
     display: inline-block;
     padding: 12px 28px;

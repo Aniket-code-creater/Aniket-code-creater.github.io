@@ -21,7 +21,7 @@ window.onscroll = () => {
 //     window.open('https://drive.google.com/file/d/1szToZaY6vIZeAhKmQN3H4bKXoGiiuTbk/view?usp=share_link')
 // }
 function resume(){
-    window.open('https://drive.google.com/file/d/1szToZaY6vIZeAhKmQN3H4bKXoGiiuTbk/view?usp=share_link')
+    window.open('https://drive.google.com/file/d/1x3o-f0bkoyJAM4ENO723xyRlBTlltPRA/view?usp=share_link')
 }
 
 
